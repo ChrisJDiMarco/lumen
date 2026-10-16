@@ -1,0 +1,19 @@
+{
+  "name": "Lumen",
+  "short_name": "Lumen",
+  "description": "A calm visual-attention game inspired by adaptive speed-of-processing research.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#091426",
+  "theme_color": "#101b35",
+  "categories": ["games", "education"],
+  "icons": [
+    {
+      "src": "/lumen-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

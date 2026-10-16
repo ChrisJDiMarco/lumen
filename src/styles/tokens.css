@@ -1,0 +1,31 @@
+:root {
+  color-scheme: dark;
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  color: #edf3e8;
+  background: #101b35;
+  font-synthesis: none;
+  --midnight: #101b35;
+  --deep-water: #091426;
+  --storm: #293d62;
+  --pearl: #edf3e8;
+  --cyan: #72e4dc;
+  --gold: #ffd778;
+  --orchid: #a58be8;
+  --muted: #aebfd0;
+  --line: rgba(237, 243, 232, 0.16);
+  --panel: rgba(17, 31, 53, 0.86);
+  --display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --utility: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius-sm: 12px;
+  --radius-md: 22px;
+  --radius-lg: 38px;
+  --shadow: 0 30px 90px rgba(1, 8, 18, 0.42);
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; background: var(--midnight); }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button { color: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible, [tabindex='-1']:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+::selection { background: var(--cyan); color: var(--deep-water); }

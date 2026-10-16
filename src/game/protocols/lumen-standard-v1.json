@@ -1,0 +1,15 @@
+{
+  "version": "lumen-standard-v1",
+  "sectorCount": 8,
+  "minEccentricity": 0.34,
+  "maxEccentricity": 0.82,
+  "minDurationMs": 90,
+  "maxDurationMs": 500,
+  "minDifficulty": 0,
+  "maxDifficulty": 1,
+  "initialDifficulty": 0.3,
+  "difficultyStep": 0.05,
+  "correctResponsesToAdvance": 2,
+  "warmupTrials": 2,
+  "maxDistractors": 6
+}

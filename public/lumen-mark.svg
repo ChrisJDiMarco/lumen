@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lumen moth">
+  <defs>
+    <radialGradient id="night" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#263e73"/>
+      <stop offset="1" stop-color="#091426"/>
+    </radialGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#edf3e8"/>
+      <stop offset="1" stop-color="#ffd778"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#night)"/>
+  <path d="M31.5 29C24 17 13 17 9 22c-3 5 3 15 19 15m4.5-8C40 17 51 17 55 22c3 5-3 15-19 15" fill="none" stroke="url(#light)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 25v22m-4-17 4-5 4 5M28 42l4 5 4-5" fill="none" stroke="#ffd778" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="22" r="2.5" fill="#72e4dc"/>
+</svg>
